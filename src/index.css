@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    body {
+      @apply bg-slate-600;
+      @apply font-semibold
+    }
+  }
+
+
+  @layer components {
+    .inp_box {
+      @apply rounded-2xl p-4 h-4 w-64 bg-white text-black ;
+    }
+  }
