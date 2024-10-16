@@ -6,7 +6,7 @@ function App() {
     <>
       <div>
         <Toaster />
-        <main className="pt-20 min-h-[calc(100vh)]">
+        <main className="pt-20 min-h-[calc(100vh)] p-2">
           <Outlet />
         </main>
       </div>
